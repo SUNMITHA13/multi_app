@@ -1,0 +1,41 @@
+
+*{
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin-top:60px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://itchronicles.com/wp-content/uploads/2020/10/speech-to-text-1024x683.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+background-attachment: fixed;
+background-position:center;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+.container{
+  max-width: 690px;
+  width: 100%;
+  padding: 40px;
+  background:rgba(60,60,60,0.9);
+  border-radius: 7px;
+  box-shadow: 20px 20px 20px rgba(255,255,255,0.8);
+}
+#message{
+color:white;
+font-size: 25px;
+}

@@ -1,0 +1,102 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  padding-top:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+background-position:center;
+background-image:url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrHro6d3BTw7ZZ4IXgfb6_8aESB7-SsWfelDSSInZVamiMSnYpBZzGBaZBBrWxWwYgLqOHuOtroGvGjxrwzdUkhjwuIvM1u6chIblGKS1gQ6JVkjXr-Vztyk2zoYb1ylvhNgLgC5q6M-7LaiXT1xnAT96DvkPx89APNb8JEaz-1mnMRcfaOYYBHzQL/s1600/Text%20to%20Speech%20-%20Social%20-%201024x512.png");
+background-size:cover;
+background-repeat:no-repeat;
+
+}
+
+.wrapper{
+ margin-top: 40px;
+  width: 370px;
+  padding: 20px 30px;
+  border-radius: 7px;
+  background:rgb(60,60,60) ;
+  box-shadow: 20px 20px 20px rgba(255,255,255,0.8);
+}
+.wrapper header{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.wrapper form{
+  margin: 35px 0 20px;
+}
+form .row{
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+ 
+}
+form .row label{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+form :where(textarea, select, button){
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 7px;
+}
+
+form .row textarea{
+  resize: none;
+  height: 110px;
+  font-size: 15px;
+  padding: 8px 10px;
+  border: 1px solid white;
+
+}
+form .row textarea::-webkit-scrollbar{
+  width: 0px;
+}
+form .row .outer{
+  height: 47px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 2px solid white;
+  background-color: #ffffff;
+}
+form .row select{
+  font-size: 14px;
+  background: none;
+ 
+}
+
+form button{
+  height: 52px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 10px;
+border-radius: 15px;
+  background: #675AFE;
+  
+}
+form button:hover{
+  background: mediumSeagreen;
+}
+
+@media(max-width: 400px){
+  .wrapper{
+    max-width: 345px;
+    width: 100%;
+  }
+}
